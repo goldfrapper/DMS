@@ -1,0 +1,110 @@
+
+html,
+body {
+	margin:0;
+	padding:0;
+}
+
+body > * {
+	padding:0 0.5em;
+}
+
+label {
+	clear:left;
+	float:left;
+	width:100px;
+	height:2em;
+}
+input {
+	float:left;
+}
+input[type=submit] {
+	clear:both;
+}
+
+.input-indent {
+	padding-left:100px;
+}
+.input-indent input,
+.input-indent label {
+	float:none;
+}
+
+#top_plane {
+	background-color:#DBDBDB;
+	padding:0.5em;
+}
+
+#page_select_box {
+	float:left;
+	width:300px;
+	margin-top:2em;
+}
+
+#page_select_box input[type=submit] {
+	clear:none;
+	float:none;
+}
+
+#page_select_box ul {
+	padding:0px;
+	-moz-user-select:none;
+}
+
+#page_select_box li {
+	list-style:none;
+	height:3em;
+	width:290px;
+	border:1px solid gray;
+	background-color:#F5F5F5;
+	margin:5px 2px;
+	padding:2px;
+}
+
+#page_select_box li em {
+	display:block;
+	font-size:0.8em;
+}
+
+#page_select_box li code {
+	font-size:1.2em;
+}
+
+#page_select_box li code,
+#page_select_box li a {
+	float:right;
+	clear:right;
+	margin-right:2px;
+}
+
+
+
+#edit_planes {
+	margin-left:320px;
+	position:absolute;
+}
+
+#edit_planes div {
+	clear:both;
+}
+
+#edit_airport_plane table {
+	clear:both;
+	width:100%;
+	margin-top:1em;
+	border:1px solid gray;
+}
+
+#edit_airport_plane table caption,
+#edit_airport_plane table th {
+	text-align:left;
+}
+
+#edit_airport_plane table thead {
+	background-color:black;
+	color:white;
+}
+
+#edit_airport_plane table a {
+	margin-right:1em;
+}
